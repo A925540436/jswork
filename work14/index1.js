@@ -1,4 +1,4 @@
-//获取红、黄、绿灯以及倒计时的元素对象
+
 var lamp = {
     red: {
         obj: document.getElementById('red'),
@@ -21,13 +21,13 @@ var lamp = {
     changeStyle(style) {
         this.red.obj.className = style[0];
         this.yellow.obj.className = style[1];
-        this.green.obj.className = style[2];
+        this.green.obj.className = style[02];
     }
 };
 var count = {
     obj: document.getElementById('count'),
     change: function(num) {
-        this.obj.innerHTML = (num < 10) > ('0' + num) ; num;
+        this.obj.innerHTML = (num < 10) ? ('0' + num) : num;
     }
 };
 var now = lamp.green;

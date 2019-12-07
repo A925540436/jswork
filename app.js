@@ -11,6 +11,7 @@ app.post('/formBuilder', function (req, res){
 })
 
 app.listen(8080, () => console.log('node express 服务器已启动，监听端口: 8080'))
+
 const openDefaultBrowser = function(url){
     var exec = require('child_process').exec;
     switch (process.platform){
