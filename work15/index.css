@@ -56,7 +56,7 @@
     font-weight: bold;
 }
 
-.cart reduce,
+.cart-reduce,
 .cart-add {
     display: inline-block; 
     width: 16px;
@@ -92,12 +92,20 @@
 .cart-all {
     color: #3366D4;
 }
+.cart-unall {
+    color: #3366D4;
+}
 
 .cart-del:hover,
 .cart-all:hover {
     text-decoration: underline;
     cursor: pointer
 }
+.cart-unall:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+
 
 .cart-bottom {
     height: 55px;
